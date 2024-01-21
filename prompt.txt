@@ -1,0 +1,47 @@
+Task - Background
+
+A company has a number of means of transport - comprising a mixture of cars, vans & boats.
+The company wishes to store details of its vehicles in a system. (But we are not concerned about any database access as part of this task).
+ 
+Task
+
+Create a series of classes that may be used to hold data on each of the means of transport (car / van / boat) – to include properties such as:
+ 
+its type (car / van / boat)
+its dimensions
+its weight
+its fuel type
+its purchase date
+its value
+number of doors (van & car only)
+keel depth (boat only)
+ 
+
+In a .NET 8 C# console application:
+ 
+Create a list of each type of transport
+Add a minimum of five items to each list, with test values of all the items properties populated
+Write the items out to 3 CSV files – one per method of transport into files in a named folder (defined in appsettings.json)
+Calculate the total value of the transport that is owned by the company and list on the screen:
+ 
+Total number of cars
+Total number of vans
+Total number of boats
+Total value of cars
+Total value of vans
+Total value of boats
+ 
+
+Using LINQ, list on the screen the minimum and maximum values of each of the methods of transport
+ 
+
+I am looking for:
+
+Examples of class inheritance
+Knowledge of class constructors
+Knowledge and explanation of variable types when defining properties
+Knowledge of list creation and subsequent iteration operations
+Exception handling (folders not being present etc)
+Handling of external resources (i.e. CSV files)
+Correct use of data types for the properties
+Basic understanding of LINQ
